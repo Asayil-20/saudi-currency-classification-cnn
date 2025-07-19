@@ -1,25 +1,27 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 🎯 Saudi Currency Classification using CNN
 
-Description of the app ...
+This project classifies Saudi currency images using a Convolutional Neural Network (CNN) model. A Streamlit app is provided to upload and test real banknote images.
 
-## Demo App
+## 📁 Contents
+- `SaudiCurrencyClassifier_CNN.ipynb` – CNN model training and evaluation
+- `currency_model.tflite` – Optimized model for deployment
+- `streamlit_app.py` – User-friendly interface to classify images
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+## 🧠 Classes
+- 5 SR
+- 10 SR
+- 50 SR
+- 100 SR
+- 200 SR
 
-## GitHub Codespaces
+## 🚀 How to Use
+1. Run the Streamlit app:
+streamlit run streamlit_app.py
+2. Upload an image of a Saudi banknote.
+3. Get real-time prediction and confidence score.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+## 📊 Accuracy
+The CNN model achieved 93.16% accuracy on test data. 
 
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+## 📸 Dataset
+Kaggle Dataset: [https://www.kaggle.com/datasets/gfbati/alfloos](https://www.kaggle.com/datasets/gfbati/alfloos)
