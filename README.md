@@ -6,6 +6,8 @@ This project classifies Saudi currency images using a Convolutional Neural Netwo
 - `SaudiCurrencyClassifier_CNN.ipynb` – CNN model training and evaluation
 - `currency_model.tflite` – Optimized model for deployment
 - `streamlit_app.py` – User-friendly interface to classify images
+- `requirements.txt` – Dependencies for the project
+- `app-demo-prediction.png` – Screenshot showing the app’s interface and prediction result
 
 ## 🧠 Classes
 - 5 SR
@@ -25,3 +27,11 @@ The CNN model achieved 93.16% accuracy on test data.
 
 ## 📸 Dataset
 Kaggle Dataset: [https://www.kaggle.com/datasets/gfbati/alfloos](https://www.kaggle.com/datasets/gfbati/alfloos)
+
+## 🌐 Try it Online
+
+You can try the app directly in your browser here:
+
+👉 [Click to Open the Live App](https://saudi-currency-classification-cnn.streamlit.app/)
+
+No installation required — just upload a Saudi banknote image and get the prediction instantly!
